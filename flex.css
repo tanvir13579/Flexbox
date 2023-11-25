@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .flex-container {
+    height: 500px;
+    display: flex;
+    background-color: #f4f4f4;
+    /*Alaways is on the main axis*/
+    /*justify-content: end;*/
+    /*Alaways on the cross axis*/
+    /*align-items: start;*/
+    /*flex-wrap: wrap;*/
+  }
+  /*.flex-container::after {
+      content: "";
+      clear: both;
+      display: block;
+    }*/
+  .item {
+    flex: 1;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item:nth-last-of-type(1) {
+  }
+  .item:nth-last-of-type(2) {
+  }
+  .item:nth-last-of-type(3) {
+  }
+  
